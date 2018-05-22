@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.hexinpass.test" tests="5" failures="0" errors="0" skipped="0" time="96.464" timestamp="2018-05-16T09:01:57" hostname="localhost">
+  <properties />
+  <testcase name="testPhoneNumber" classname="projects.wlye.cases.MyCases" time="19.98" />
+  <testcase name="testTitle" classname="projects.wlye.cases.MyCases" time="18.638" />
+  <testcase name="testUserName" classname="projects.wlye.cases.MyCases" time="19.002" />
+  <testcase name="testBranch" classname="projects.wlye.cases.MyCases" time="19.402" />
+  <testcase name="testNavToMyPage" classname="projects.wlye.cases.MyCases" time="19.402" />
+</testsuite>

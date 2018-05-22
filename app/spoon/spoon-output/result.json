@@ -1,0 +1,2568 @@
+{
+  "title": "wuliangye",
+  "started": 1526461208959,
+  "duration": 110,
+  "results": {
+    "885df0e67d52": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "2014813",
+        "manufacturer": "Xiaomi",
+        "version": "5.1.1",
+        "apiLevel": 22,
+        "language": "zh",
+        "region": "CN",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "projects.wlye.cases.MyCases",
+            "methodName": "testBranch"
+          },
+          {
+            "status": "PASS",
+            "duration": 19,
+            "screenshots": [
+              "I:\\Hexinpass\\app\\spoon\\spoon-output\\image\\885df0e67d52\\projects.wlye.cases.MyCases\\testBranch\\1526461301124_Branch.png"
+            ],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 22,
+                    "mMilli": 258
+                  }
+                },
+                "mMessage": "started: testBranch(projects.wlye.cases.MyCases)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18757,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 22,
+                    "mMilli": 268
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 22,
+                    "mMilli": 268
+                  }
+                },
+                "mMessage": "openAppByPackageName-com.staff.wuliangye"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "InteractionController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 24,
+                    "mMilli": 218
+                  }
+                },
+                "mMessage": "runAndwaitForEvents timed out waiting for events"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "System.out",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 24,
+                    "mMilli": 338
+                  }
+                },
+                "mMessage": "50"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 24,
+                    "mMilli": 348
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Timeline",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 24,
+                    "mMilli": 348
+                  }
+                },
+                "mMessage": "Timeline: Activity_launch_request time:92744105"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 29,
+                    "mMilli": 658
+                  }
+                },
+                "mMessage": "com.staff.wuliangye launch Success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 35,
+                    "mMilli": 668
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80009026; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 35,
+                    "mMilli": 708
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80009026; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 35,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "cancle update app success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 35,
+                    "mMilli": 788
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1376, type\u003dTYPE_APPLICATION, layer\u003d21015, bounds\u003dRect(0, 459 - 720, 821), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 38,
+                    "mMilli": 138
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/rb_my] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000f1c1; boundsInParent: Rect(0, 0 - 240, 100); boundsInScreen: Rect(480, 1180 - 720, 1280); packageName: com.staff.wuliangye; className: android.widget.RadioButton; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/rb_my; checkable: true; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 38,
+                    "mMilli": 208
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|setUp|navToMyPage"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 38,
+                    "mMilli": 208
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 38,
+                    "mMilli": 208
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 38,
+                    "mMilli": 208
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp/1526461298221_navToMyPage.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 39,
+                    "mMilli": 78
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027navToMyPage\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 108
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/btn_ck] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80026ce6; boundsInParent: Rect(524200, 0 - 524376, 48); boundsInScreen: Rect(518, 220 - 694, 268); packageName: com.staff.wuliangye; className: android.widget.Button; text: 机关二分会; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/btn_ck; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiObject",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 108
+                  }
+                },
+                "mMessage": "getText() \u003d 机关二分会"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 108
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|testBranch|Branch"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 108
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 108
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testBranch"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 108
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testBranch/1526461301124_Branch.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 658
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027Branch\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 658
+                  }
+                },
+                "mMessage": "finished: testBranch(projects.wlye.cases.MyCases)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "projects.wlye.cases.MyCases",
+            "methodName": "testNavToMyPage"
+          },
+          {
+            "status": "PASS",
+            "duration": 19,
+            "screenshots": [],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 668
+                  }
+                },
+                "mMessage": "started: testNavToMyPage(projects.wlye.cases.MyCases)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18757,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 668
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 41,
+                    "mMilli": 668
+                  }
+                },
+                "mMessage": "openAppByPackageName-com.staff.wuliangye"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "InteractionController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 42,
+                    "mMilli": 688
+                  }
+                },
+                "mMessage": "runAndwaitForEvents timed out waiting for events"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "System.out",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 42,
+                    "mMilli": 798
+                  }
+                },
+                "mMessage": "50"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 42,
+                    "mMilli": 808
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Timeline",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 42,
+                    "mMilli": 808
+                  }
+                },
+                "mMessage": "Timeline: Activity_launch_request time:92762561"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 47,
+                    "mMilli": 398
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1347, type\u003dTYPE_APPLICATION, layer\u003d21010, bounds\u003dRect(0, 0 - 720, 1280), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 48,
+                    "mMilli": 468
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1347, type\u003dTYPE_APPLICATION, layer\u003d21010, bounds\u003dRect(0, 0 - 720, 1280), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 49,
+                    "mMilli": 528
+                  }
+                },
+                "mMessage": "com.staff.wuliangye launch Success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 55,
+                    "mMilli": 558
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80008c69; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 55,
+                    "mMilli": 608
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80008c69; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 55,
+                    "mMilli": 648
+                  }
+                },
+                "mMessage": "cancle update app success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 55,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1380, type\u003dTYPE_APPLICATION, layer\u003d21015, bounds\u003dRect(0, 459 - 720, 821), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 58,
+                    "mMilli": 108
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/rb_my] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000f1c5; boundsInParent: Rect(0, 0 - 240, 100); boundsInScreen: Rect(480, 1180 - 720, 1280); packageName: com.staff.wuliangye; className: android.widget.RadioButton; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/rb_my; checkable: true; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 58,
+                    "mMilli": 168
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|setUp|navToMyPage"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 58,
+                    "mMilli": 168
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 58,
+                    "mMilli": 168
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 58,
+                    "mMilli": 178
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp/1526461318186_navToMyPage.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 59,
+                    "mMilli": 98
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027navToMyPage\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 2,
+                    "mSecond": 1,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/rb_my] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000f1c5; boundsInParent: Rect(0, 0 - 240, 100); boundsInScreen: Rect(480, 1180 - 720, 1280); packageName: com.staff.wuliangye; className: android.widget.RadioButton; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/rb_my; checkable: true; checked: true; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 2,
+                    "mSecond": 1,
+                    "mMilli": 78
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/tv_about] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80025664; boundsInParent: Rect(0, 0 - 668, 90); boundsInScreen: Rect(26, 966 - 694, 1056); packageName: com.staff.wuliangye; className: android.widget.TextView; text: 关于五粮液家园; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/tv_about; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 2,
+                    "mSecond": 1,
+                    "mMilli": 78
+                  }
+                },
+                "mMessage": "finished: testNavToMyPage(projects.wlye.cases.MyCases)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "projects.wlye.cases.MyCases",
+            "methodName": "testPhoneNumber"
+          },
+          {
+            "status": "PASS",
+            "duration": 19,
+            "screenshots": [
+              "I:\\Hexinpass\\app\\spoon\\spoon-output\\image\\885df0e67d52\\projects.wlye.cases.MyCases\\testPhoneNumber\\1526461244094_PhoneNumber.png"
+            ],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 24,
+                    "mMilli": 618
+                  }
+                },
+                "mMessage": "started: testPhoneNumber(projects.wlye.cases.MyCases)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18757,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 24,
+                    "mMilli": 628
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 24,
+                    "mMilli": 628
+                  }
+                },
+                "mMessage": "openAppByPackageName-com.staff.wuliangye"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "InteractionController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 26,
+                    "mMilli": 188
+                  }
+                },
+                "mMessage": "runAndwaitForEvents timed out waiting for events"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "System.out",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 26,
+                    "mMilli": 318
+                  }
+                },
+                "mMessage": "50"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 26,
+                    "mMilli": 328
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Timeline",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 26,
+                    "mMilli": 328
+                  }
+                },
+                "mMessage": "Timeline: Activity_launch_request time:92686083"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 30,
+                    "mMilli": 988
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1347, type\u003dTYPE_APPLICATION, layer\u003d21040, bounds\u003dRect(0, 0 - 720, 1280), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 32,
+                    "mMilli": 578
+                  }
+                },
+                "mMessage": "com.staff.wuliangye launch Success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 38,
+                    "mMilli": 598
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000901a; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 38,
+                    "mMilli": 658
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000901a; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 38,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "cancle update app success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 38,
+                    "mMilli": 738
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1364, type\u003dTYPE_APPLICATION, layer\u003d21015, bounds\u003dRect(0, 459 - 720, 821), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 8
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/rb_my] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000edf4; boundsInParent: Rect(0, 0 - 240, 100); boundsInScreen: Rect(480, 1180 - 720, 1280); packageName: com.staff.wuliangye; className: android.widget.RadioButton; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/rb_my; checkable: true; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 58
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|setUp|navToMyPage"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 58
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 58
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 58
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 58
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 58
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 58
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp/1526461241079_navToMyPage.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 41,
+                    "mMilli": 988
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027navToMyPage\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/tv_user_level] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80026cda; boundsInParent: Rect(0, 0 - 131, 33); boundsInScreen: Rect(182, 257 - 313, 290); packageName: com.staff.wuliangye; className: android.widget.TextView; text: 183****8698; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/tv_user_level; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiObject",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "getText() \u003d 183****8698"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|testPhoneNumber|PhoneNumber"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testPhoneNumber"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 78
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testPhoneNumber/1526461244094_PhoneNumber.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 78
+                  }
+                },
+                "mMessage": "[ 05-16 17:00:44.088 20267:20267 W/         ]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 78
+                  }
+                },
+                "mMessage": "[ColorAdjust] Set temp_prefer temp_ce!"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 598
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027PhoneNumber\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 598
+                  }
+                },
+                "mMessage": "finished: testPhoneNumber(projects.wlye.cases.MyCases)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "projects.wlye.cases.MyCases",
+            "methodName": "testTitle"
+          },
+          {
+            "status": "PASS",
+            "duration": 18,
+            "screenshots": [
+              "I:\\Hexinpass\\app\\spoon\\spoon-output\\image\\885df0e67d52\\projects.wlye.cases.MyCases\\testTitle\\1526461262738_MyPage.png"
+            ],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 598
+                  }
+                },
+                "mMessage": "started: testTitle(projects.wlye.cases.MyCases)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18757,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 598
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 44,
+                    "mMilli": 598
+                  }
+                },
+                "mMessage": "openAppByPackageName-com.staff.wuliangye"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "InteractionController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 45,
+                    "mMilli": 618
+                  }
+                },
+                "mMessage": "runAndwaitForEvents timed out waiting for events"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "System.out",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 45,
+                    "mMilli": 738
+                  }
+                },
+                "mMessage": "50"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 45,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Timeline",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 45,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "Timeline: Activity_launch_request time:92705504"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 50,
+                    "mMilli": 368
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1347, type\u003dTYPE_APPLICATION, layer\u003d21010, bounds\u003dRect(0, 0 - 720, 1280), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 51,
+                    "mMilli": 438
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1347, type\u003dTYPE_APPLICATION, layer\u003d21010, bounds\u003dRect(0, 0 - 720, 1280), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 52,
+                    "mMilli": 618
+                  }
+                },
+                "mMessage": "com.staff.wuliangye launch Success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 58,
+                    "mMilli": 638
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80008c5d; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 58,
+                    "mMilli": 688
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80008c5d; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 58,
+                    "mMilli": 738
+                  }
+                },
+                "mMessage": "cancle update app success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 0,
+                    "mSecond": 58,
+                    "mMilli": 798
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1368, type\u003dTYPE_APPLICATION, layer\u003d21015, bounds\u003dRect(0, 459 - 720, 821), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 1,
+                    "mMilli": 138
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/rb_my] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000f1b9; boundsInParent: Rect(0, 0 - 240, 100); boundsInScreen: Rect(480, 1180 - 720, 1280); packageName: com.staff.wuliangye; className: android.widget.RadioButton; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/rb_my; checkable: true; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 1,
+                    "mMilli": 198
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|setUp|navToMyPage"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 1,
+                    "mMilli": 198
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 1,
+                    "mMilli": 198
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 1,
+                    "mMilli": 208
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp/1526461261216_navToMyPage.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 2,
+                    "mMilli": 68
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027navToMyPage\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 2,
+                    "mMilli": 718
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/title] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80028ea7; boundsInParent: Rect(524024, 0 - 524552, 96); boundsInScreen: Rect(96, 50 - 624, 146); packageName: com.staff.wuliangye; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiObject",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 2,
+                    "mMilli": 728
+                  }
+                },
+                "mMessage": "getText() \u003d 我的"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 2,
+                    "mMilli": 728
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|testTitle|MyPage"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 2,
+                    "mMilli": 728
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 2,
+                    "mMilli": 728
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testTitle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 2,
+                    "mMilli": 728
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testTitle/1526461262738_MyPage.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 3,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027MyPage\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 3,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "finished: testTitle(projects.wlye.cases.MyCases)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "projects.wlye.cases.MyCases",
+            "methodName": "testUserName"
+          },
+          {
+            "status": "PASS",
+            "duration": 19,
+            "screenshots": [
+              "I:\\Hexinpass\\app\\spoon\\spoon-output\\image\\885df0e67d52\\projects.wlye.cases.MyCases\\testUserName\\1526461281710_UserName.png"
+            ],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 3,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "started: testUserName(projects.wlye.cases.MyCases)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18757,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 3,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 3,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "openAppByPackageName-com.staff.wuliangye"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "InteractionController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 5,
+                    "mMilli": 118
+                  }
+                },
+                "mMessage": "runAndwaitForEvents timed out waiting for events"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "System.out",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 5,
+                    "mMilli": 238
+                  }
+                },
+                "mMessage": "50"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 5,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Timeline",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 5,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "Timeline: Activity_launch_request time:92725001"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 9,
+                    "mMilli": 838
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1347, type\u003dTYPE_APPLICATION, layer\u003d21010, bounds\u003dRect(0, 0 - 720, 1280), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 11,
+                    "mMilli": 728
+                  }
+                },
+                "mMessage": "com.staff.wuliangye launch Success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 17,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80008c61; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 17,
+                    "mMilli": 798
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dandroid:id/button2] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80008c61; boundsInParent: Rect(0, 0 - 128, 96); boundsInScreen: Rect(376, 685 - 504, 781); packageName: com.staff.wuliangye; className: android.widget.Button; text: 取消; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/button2; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "helper.base.VP2",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 17,
+                    "mMilli": 828
+                  }
+                },
+                "mMessage": "cancle update app success"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiDevice",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 17,
+                    "mMilli": 888
+                  }
+                },
+                "mMessage": "Skipping null root node for window: AccessibilityWindowInfo[id\u003d1372, type\u003dTYPE_APPLICATION, layer\u003d21015, bounds\u003dRect(0, 459 - 720, 821), focused\u003dtrue, active\u003dtrue, hasParent\u003dfalse, hasChildren\u003dfalse]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 20,
+                    "mMilli": 248
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/rb_my] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@8000f1bd; boundsInParent: Rect(0, 0 - 240, 100); boundsInScreen: Rect(480, 1180 - 720, 1280); packageName: com.staff.wuliangye; className: android.widget.RadioButton; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/rb_my; checkable: true; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 20,
+                    "mMilli": 318
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|setUp|navToMyPage"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 20,
+                    "mMilli": 318
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 20,
+                    "mMilli": 318
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 20,
+                    "mMilli": 318
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/setUp/1526461280330_navToMyPage.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 21,
+                    "mMilli": 158
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027navToMyPage\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "QueryController",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 21,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "Matched selector: UiSelector[RESOURCE_ID\u003dcom.staff.wuliangye:id/tv_name] \u003c\u003c\u003d\u003d\u003e\u003e [android.view.accessibility.AccessibilityNodeInfo@80026560; boundsInParent: Rect(0, 0 - 78, 43); boundsInScreen: Rect(182, 198 - 260, 241); packageName: com.staff.wuliangye; className: android.widget.TextView; text: *建彬; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.staff.wuliangye:id/tv_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "UiObject",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 21,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "getText() \u003d *建彬"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 21,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "projects.wlye.cases.MyCases|projects.wlye.cases.MyCases|testUserName|UserName"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 21,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "***************make parent******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 21,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "***************make dir******************/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testUserName"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "screenshot",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 21,
+                    "mMilli": 698
+                  }
+                },
+                "mMessage": "/storage/emulated/0/app_spoon-screenshots/projects.wlye.cases.MyCases/testUserName/1526461281710_UserName.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 22,
+                    "mMilli": 258
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027UserName\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 18757,
+                  "mTid": 18787,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 5,
+                    "mDay": 16,
+                    "mHour": 17,
+                    "mMinute": 1,
+                    "mSecond": 22,
+                    "mMilli": 258
+                  }
+                },
+                "mMessage": "finished: testUserName(projects.wlye.cases.MyCases)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1526461208968,
+      "duration": 96,
+      "exceptions": []
+    }
+  }
+}
