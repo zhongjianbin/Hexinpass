@@ -33,17 +33,6 @@ public class MyCases extends VP2{
         MyPages.navToMyPage();
     }
 
-/*    @Test
-    public void testClickCancle(){
-        cancleUpdate();
-       *//* waitTime(2);
-        if (!getObjectById(MyPages.ID_MY).exists()){
-            Asst.fail("test click cancle fail");
-            Spoon.screenshot("testClickCancle");
-        }
-        logger.info("this is a test");*//*
-    }*/
-
     @Test
     /**
      * 测试进入“我的”界面
@@ -159,16 +148,11 @@ public class MyCases extends VP2{
      */
     public void testInteraction() throws UiObjectNotFoundException {
         String actual = MyPages.getInteractionTex();
-        logger.info("gou tong zi xun:"+actual);
-        if (!"沟通咨询".equals(actual)){
+        String expect = "沟通咨询";
+        if (!expect.equals(actual)){
             Spoon.screenshot("testInteraction_fail");
-            Asst.fail("test gou tong zixun shibai");
+            Asst.fail(actual+" does not equal "+expect);
         }
     }
-
-   /* @Test
-    public void testNavToInteraction(){
-        MyPages.navToInteraction();
-    }*/
 
 }
