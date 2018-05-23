@@ -27,6 +27,13 @@ public class MyPages extends VP2{
     private static String ID_BALANCEBACK = "com.staff.wuliangye:id/title_left_btn";
     private static String ID_BANLANCETITLE = "com.staff.wuliangye:id/title";
     private static String ID_BILL = "com.staff.wuliangye:id/title_right_txt";
+    //专项资金
+    private static String ID_SPECIAL = "com.staff.wuliangye:id/rl_special";
+    private static String ID_SPECIALTIPS = "com.staff.wuliangye:id/tv_tips";
+    //优惠券
+    public static String ID_COUPON = "com.staff.wuliangye:id/tv_coupon";
+
+
 
     public static String ID_INTERACTION = "com.staff.wuliangye:id/rl_interaction";
     public static String ID_NAVTOINTERACTION = "com.staff.wuliangye:id/tv_comm_tips";
@@ -120,6 +127,44 @@ public class MyPages extends VP2{
     public static void navToBalance(){
         clickById(ID_YUE);
         Spoon.screenshot("navToBalance");
+    }
+
+    //专项资金
+    /**
+     *获取“我的专项资金”几个字
+     *@author jianbin.zhong
+     *@time 2018/5/23 9:14
+     */
+    public static String getSpecialTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_SPECIAL).getChild(new UiSelector().index(0)).getText();
+    }
+
+    /**
+     *进入我的专项资金
+     *@author jianbin.zhong
+     *@time 2018/5/23 9:15
+     */
+    public static void navToSpecialTips(){
+        clickById(ID_SPECIALTIPS);
+    }
+
+    //优惠券
+    /**
+     *获取“我的优惠券”几个字
+     *@author jianbin.zhong
+     *@time 2018/5/23 10:12
+     */
+    public static String getCouponTex() throws UiObjectNotFoundException {
+        return getTex(ID_COUPON);
+    }
+
+    /**
+     *进入到我的优惠券界面
+     *@author jianbin.zhong
+     *@time 2018/5/23 10:13
+     */
+    public static void navToCoupon(){
+        clickById(ID_COUPON);
     }
 
 
