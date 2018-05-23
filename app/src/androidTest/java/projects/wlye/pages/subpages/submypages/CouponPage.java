@@ -1,5 +1,6 @@
 package projects.wlye.pages.subpages.submypages;
 
+import android.support.test.uiautomator.UiObject;
 import android.support.test.uiautomator.UiObjectNotFoundException;
 import android.support.test.uiautomator.UiSelector;
 
@@ -23,6 +24,21 @@ public class CouponPage extends VP2 {
     public static String ID_MARKETBACKCOUPON = "com.staff.wuliangye:id/title_left_btn";
     public static String ID_MARKETTITLE = "com.staff.wuliangye:id/title";
     public static String ID_COUPONLISTS = "com.staff.wuliangye:id/lv_coupon";
+    public static String ID_COUPONTITLE = "com.staff.wuliangye:id/tv_title";
+    public static String ID_COUPONCONTENT = "com.staff.wuliangye:id/tv_content";
+    public static String ID_COUPONAMOUNT = "com.staff.wuliangye:id/tv_amount";
+    public static String ID_COUPONUSEORGET = "com.staff.wuliangye:id/btn_get";
+    //优惠券详情
+    public static String ID_COUPONDETAILTEX = "com.staff.wuliangye:id/title";
+    public static String ID_DETAILBACKCOUPON = "com.staff.wuliangye:id/title_left_btn";
+    public static String ID_COUPONDETAILTITLE = "com.staff.wuliangye:id/tv_title";
+    public static String ID_COUPONDETAILDATE = "com.staff.wuliangye:id/tv_date";
+    public static String ID_COUPONDETAILAMOUNT = "com.staff.wuliangye:id/tv_amount";
+    public static String ID_COUPONDETAILDESC = "com.staff.wuliangye:id/tv_desc";
+    public static String ID_COUNPONDETAILUSE = "com.staff.wuliangye:id/btn_use";
+    public static String ID_COUPONDETAILTIP = "com.staff.wuliangye:id/tv_tip";
+    public static String ID_COUPONDETAILREMARK = "com.staff.wuliangye:id/tv_remark";
+
 
     /**
      *优惠券界面返回到我的界面
@@ -159,6 +175,179 @@ public class CouponPage extends VP2 {
         return getTex(ID_MARKETTITLE);
     }
 
+    /**
+     *获取index索引下的优惠券
+     *@author jianbin.zhong
+     *@time 2018/5/23 14:31
+     */
+    public static UiObject getCouponUiobject(int index) throws UiObjectNotFoundException {
+        UiObject couponUiobject = null;
+        int childObjectCount = getObjectById(ID_COUPONLISTS).getChildCount();
+        if (childObjectCount == 0){
+            System.out.println("获取优惠券出错,请检查是否有优惠券");
+        }else {
+            if (index > childObjectCount){
+                index = childObjectCount;
+                System.out.println("输入的索引超过了优惠券的张数，自动认为选取最后一张优惠券");
+                couponUiobject = getObjectById(ID_COUPONLISTS).getChild(new UiSelector().index(index));
+            }else {
+                couponUiobject = getObjectById(ID_COUPONLISTS).getChild(new UiSelector().index(index));
+            }
+        }
+        return couponUiobject;
+    }
 
+    /**
+     *获取优惠券的描述、金额、title对应的Uiobject
+     *@author jianbin.zhong
+     *@time 2018/5/23 14:56
+     */
+    public static UiObject getCouponChildUiobject(int index) throws UiObjectNotFoundException {
+        return getCouponUiobject(index).getChild(new UiSelector().index(0)).getChild(new UiSelector().index(1));
+    }
 
+    /**
+     *获取index索引下的优惠券的标题
+     *@author jianbin.zhong
+     *@time 2018/5/23 14:46
+     */
+    public static String getCouponTitle(int index) throws UiObjectNotFoundException {
+       return getCouponChildUiobject(index).getChild(new UiSelector().index(0)).getChild(new UiSelector().resourceId(ID_COUPONTITLE)).getText();
+    }
+
+    /**
+     *获取优惠券的描述
+     *@author jianbin.zhong
+     *@time 2018/5/23 14:48
+     */
+    public static String getCouponContent(int index) throws UiObjectNotFoundException {
+        return getCouponChildUiobject(index).getChild(new UiSelector().resourceId(ID_COUPONCONTENT)).getText();
+    }
+
+    /**
+     *获取优惠券的金额
+     *@author jianbin.zhong
+     *@time 2018/5/23 14:53
+     */
+    public static String getCounponAmount(int index) throws UiObjectNotFoundException {
+        return getCouponChildUiobject(index).getChild(new UiSelector().index(1)).getChild(new UiSelector().resourceId(ID_COUPONAMOUNT)).getText();
+    }
+
+    /**
+     *获取优惠券“¥”标记
+     *@author jianbin.zhong
+     *@time 2018/5/23 14:59
+     */
+    public static String getCouponMoneyTip(int index) throws UiObjectNotFoundException {
+        return getCouponChildUiobject(index).getChild(new UiSelector().index(1)).getChild(new UiSelector().index(0)).getText();
+    }
+
+    /**
+     *获取优惠券“立即领取”或者“立即使用”字
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:02
+     */
+    public static String getCouponUseOrGetTex(int index) throws UiObjectNotFoundException {
+        return getCouponUiobject(index).getChild(new UiSelector().index(0)).getChild(new UiSelector().resourceId(ID_COUPONUSEORGET)).getText();
+    }
+
+    /**
+     *点击“立即领取”或者“立即使用”
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:05
+     */
+    public static void useOrGetCoupon(int index) throws UiObjectNotFoundException {
+        getCouponUiobject(index).getChild(new UiSelector().index(0)).getChild(new UiSelector().resourceId(ID_COUPONUSEORGET)).click();
+    }
+
+    //优惠券详情
+    /**
+     *优惠券详情界面返回到优惠券界面
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:17
+     */
+    public static void detailBackCoupon(){
+        clickById(ID_DETAILBACKCOUPON);
+    }
+
+    /**
+     *获取优惠券详情界面的"详情"字
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:19
+     */
+    public static String getCouponDetailTex() throws UiObjectNotFoundException {
+        return getTex(ID_COUPONDETAILTEX);
+    }
+
+    /**
+     *获取优惠券详情界面的优惠券的title
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:21
+     */
+    public static String getCouponDetailTitle() throws UiObjectNotFoundException {
+        return getTex(ID_COUPONDETAILTITLE);
+    }
+
+    /**
+     *获取优惠券详情的有效期
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:22
+     */
+    public static String getCouponDetailDate() throws UiObjectNotFoundException {
+        return getTex(ID_COUPONDETAILDATE);
+    }
+
+    /**
+     *获取优惠券详情的描述
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:23
+     */
+    public static String getCouponDetailDesc() throws UiObjectNotFoundException {
+        return getTex(ID_COUPONDETAILDESC);
+    }
+
+    /**
+     *获取优惠券详情的金额
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:25
+     */
+    public static String getCouponDetailAmount() throws UiObjectNotFoundException {
+        return getTex(ID_COUPONDETAILAMOUNT);
+    }
+
+    /**
+     *点击立即使用
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:27
+     */
+    public static void clickUseCoupon(){
+        clickById(ID_COUNPONDETAILUSE);
+    }
+
+    /**
+     *获取“立即使用”字体
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:28
+     */
+    public static String getCouponDetailUseTex() throws UiObjectNotFoundException {
+        return getTex(ID_COUNPONDETAILUSE);
+    }
+    
+    /**
+     *获取“使用需知”字体
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:30
+     */
+    public static String getCouponDetailTip() throws UiObjectNotFoundException {
+        return getTex(ID_COUPONDETAILTIP);
+    }
+
+    /**
+     *获取优惠券详情的remark字体
+     *@author jianbin.zhong
+     *@time 2018/5/23 15:31
+     */
+    public static String getRemarkTex() throws UiObjectNotFoundException {
+        return getTex(ID_COUPONDETAILREMARK);
+    }
 }
