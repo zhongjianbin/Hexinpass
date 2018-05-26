@@ -36,6 +36,8 @@ public class HomePages extends VP2{
     public static String ID_LIFE = "com.staff.wuliangye:id/ll_life";//全部商户
     public static String ID_CHARGE = "com.staff.wuliangye:id/ll_charge";//便民缴费
     public static String ID_FILM = "com.staff.wuliangye:id/ll_film";//电影选座
+    //现金红包
+    public static String ID_BJKNOW = "com.staff.wuliangye:id/btn_know";
     //会员专享
     public static String ID_CUSTOM = "com.staff.wuliangye:id/ll_line_label_m";
     public static String ID_SHOP = "com.staff.wuliangye:id/iv_shop";//普惠商城
