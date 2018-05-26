@@ -58,7 +58,7 @@ public class MyCases extends VP2{
         Spoon.screenshot("MyPage");
         if (!expect.equals(actual)){
             Spoon.screenshot("testTitle_fail");
-            Asst.fail(actual+" does not equal "+expect);
+            Asst.fail("test title fail, "+actual+" does not equal "+expect);
         }
     }
 
@@ -72,10 +72,9 @@ public class MyCases extends VP2{
         String expect = "*建彬";
         logger.info("expect: "+expect);
         String actual = MyPages.getUsernameTex();
-        Spoon.screenshot("UserName");
         if (!expect.equals(actual)){
             Spoon.screenshot("testUserName_fail");
-            Asst.fail(actual+" does not equal "+expect);
+            Asst.fail("test userName fail, "+actual+" does not equal "+expect);
         }
     }
 
@@ -91,7 +90,7 @@ public class MyCases extends VP2{
         Spoon.screenshot("PhoneNumber");
         if (!expect.equals(actual)){
             Spoon.screenshot("testPhoneNumber_fail");
-            Asst.fail(actual+" does not equal "+expect);
+            Asst.fail("test phoneNumber fail, "+actual+" does not equal "+expect);
         }
     }
 
@@ -102,12 +101,12 @@ public class MyCases extends VP2{
      *@time 2018/5/16 16:43
      */
     public void testBranch() throws UiObjectNotFoundException {
-        String expect = "机关二分会";
+        String expect = "商通公司";
         String actual = MyPages.getBranchTex();
         Spoon.screenshot("Branch");
         if (!expect.equals(actual)){
             Spoon.screenshot("testBranch_fail");
-            Asst.fail(actual+" does not equal "+expect);
+            Asst.fail("test Branch fail, "+actual+" does not equal "+expect);
         }
     }
 
@@ -131,12 +130,12 @@ public class MyCases extends VP2{
      *@time 2018/5/16 17:21
      */
     public void testYuE() throws UiObjectNotFoundException {
-        String expect = "6418.77元";
+        String expect = "0.00元";
         String actual = MyPages.getYuETex();
         Spoon.screenshot("YuE");
         if (!expect.equals(actual)){
             Spoon.screenshot("testYuE_fail");
-            Asst.fail(actual+" does not equal "+expect);
+            Asst.fail("test YuE fail, "+actual+" does not equal "+expect);
         }
     }
 
@@ -151,7 +150,7 @@ public class MyCases extends VP2{
         String expect = "沟通咨询";
         if (!expect.equals(actual)){
             Spoon.screenshot("testInteraction_fail");
-            Asst.fail(actual+" does not equal "+expect);
+            Asst.fail("test Interaction fail, "+actual+" does not equal "+expect);
         }
     }
 
