@@ -306,7 +306,6 @@ public final class Spoon extends VP2 {
         // No instances.
     }
 
-    //add by elon
     private static File filesDirectory(String directoryType, String testClassName,
                                        String testMethodName) throws IllegalAccessException {
         File directory;
@@ -453,6 +452,7 @@ public final class Spoon extends VP2 {
         screenshot(tag,className,methodName,drawText,uiObject);
     }
     public static void screenshot(String tag) {
+        waitTime(2);
         StackTraceElement testClass = findTestClassTraceElement(Thread.currentThread().getStackTrace());
         String className = testClass.getClassName().replaceAll("[^A-Za-z0-9._-]", "_");
         String methodName = testClass.getMethodName();
