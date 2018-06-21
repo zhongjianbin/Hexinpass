@@ -23,20 +23,24 @@ public class HomePages extends VP2{
     public static String ID_MY = "com.staff.wuliangye:id/rb_my";
     //消息
     public static String ID_MSG = "com.staff.wuliangye:id/rl_msg";
-    public static String ID_COMMONBAR = "com.staff.wuliangye:id/rl_common_bar";
-    public static String ID_MSGTITLE = "com.staff.wuliangye:id/title";
+    public static String ID_COMMONBAR = "com.staff.wuliangye:id/rl_common_bar"; //消息数目
+    public static String ID_MSGTITLE = "com.staff.wuliangye:id/title";//我的消息
     //banner
-    public static String ID_BANNERTITLE = "com.staff.wuliangye:id/tv_banner_title";
-    public static String ID_BANNERCOUNT = "com.staff.wuliangye:id/circleIndicator";
-    public static String ID_BANNERBUTTOM = "com.staff.wuliangye:id/iv_banner_bottom";
+    public static String ID_BANNERTITLE = "com.staff.wuliangye:id/tv_banner_title";//banner标题
+    public static String ID_BANNERCOUNT = "com.staff.wuliangye:id/circleIndicator";//banner圆点
+    public static String ID_BANNERBUTTOM = "com.staff.wuliangye:id/iv_banner_bottom";//banner圆点
     //普惠扫码、现金红包、全部商户、便民缴费、电影选座
     public static String ID_PAY = "com.staff.wuliangye:id/ll_pay";//普惠扫码
     public static String ID_BJ = "com.staff.wuliangye:id/ll_bj";//现金红包
+    public static String ID_ACTIVITY = "com.staff.wuliangye:id/ll_activity";//工会活动
+    public static String ID_STUFF = "com.staff.wuliangye:id/ll_stuff";//素质提升
     public static String ID_LIFE = "com.staff.wuliangye:id/ll_life";//全部商户
-    public static String ID_CHARGE = "com.staff.wuliangye:id/ll_charge";//便民缴费
     public static String ID_FILM = "com.staff.wuliangye:id/ll_film";//电影选座
-    //现金红包
-    public static String ID_BJKNOW = "com.staff.wuliangye:id/btn_know";
+    public static String ID_CHARGE = "com.staff.wuliangye:id/ll_charge";//便民缴费
+    public static String ID_FLFW = "com.staff.wuliangye:id/ll_flfw";//法律服务
+    public static String ID_XLJY = "com.staff.wuliangye:id/ll_xljy";//心理减压
+    public static String ID_HZBZ = "com.staff.wuliangye:id/ll_hzbz";//互助保障
+
     //会员专享
     public static String ID_CUSTOM = "com.staff.wuliangye:id/ll_line_label_m";
     public static String ID_SHOP = "com.staff.wuliangye:id/iv_shop";//普惠商城
@@ -157,6 +161,45 @@ public class HomePages extends VP2{
     }
 
     /**
+     *点击进入到工会活动界面
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:30
+     */
+    public static void navToActivity(){
+        clickById(ID_ACTIVITY);
+        Spoon.screenshot("navToActivity");
+    }
+
+    /**
+     *获取“工会活动四个字”
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:32
+     */
+    public static String getActiTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_ACTIVITY).getChild(new UiSelector().index(1)).getText();
+    }
+    
+    /**
+     *点击进入素质提升
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:34
+     */
+    public static void navToStuff(){
+        clickById(ID_STUFF);
+        Spoon.screenshot("navToStuff");
+    }
+
+    /**
+     *获取“素质提升”四个字
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:35
+     */
+    public static String getStuffTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_STUFF).getChild(new UiSelector().index(1)).getText();
+    }
+
+
+    /**
      *点击进入全部商户界面
      *@author jianbin.zhong
      *@time 2018/5/24 14:51
@@ -193,6 +236,64 @@ public class HomePages extends VP2{
     public static String getChargeTex() throws UiObjectNotFoundException {
         return getObjectById(ID_CHARGE).getChild(new UiSelector().index(1)).getText();
     }
+
+    /**
+     *点击进入法律服务界面
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:38
+     */
+    public static void navToFlfw(){
+        clickById(ID_FLFW);
+        Spoon.screenshot("navToFlfw");
+    }
+
+    /**
+     *获取“法律服务”四个字
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:40
+     */
+    public static String getFlfwTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_FLFW).getChild(new UiSelector().index(1)).getText();
+    }
+
+    /**
+     *点击进入心理减压
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:42
+     */
+    public static void navToXljy(){
+        clickById(ID_XLJY);
+        Spoon.screenshot("navToXljy");
+    }
+
+    /**
+     *获取“心理减压”四个字
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:43
+     */
+    public static String getXljyTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_XLJY).getChild(new UiSelector().index(1)).getText();
+    }
+
+    /**
+     *点击进入互助保障
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:44
+     */
+    public static void navToHzbz(){
+        clickById(ID_HZBZ);
+        Spoon.screenshot("navToHzbz");
+    }
+
+    /**
+     *获取“互助保障”四个字
+     *@author jianbin.zhong
+     *@time 2018/6/21 15:45
+     */
+    public static String getHzbzTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_HZBZ).getChild(new UiSelector().index(1)).getText();
+    }
+
 
     /**
      *跳转进入电影选座
