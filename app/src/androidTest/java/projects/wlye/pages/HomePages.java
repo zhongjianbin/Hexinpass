@@ -57,6 +57,15 @@ public class HomePages extends VP2{
     public static String ID_BUSINESSCIRCLE = "com.staff.wuliangye:id/tv_circle";
 
     /**
+     *获取首页button的“首页”两个字
+     *@author jianbin.zhong
+     *@time 2018/6/21 17:16
+     */
+    public static String getHomeTex() throws UiObjectNotFoundException {
+        return getTex(ID_HOME);
+    }
+
+    /**
      *点击跳转到工会服务界面
      *@author jianbin.zhong
      *@time 2018/5/24 14:28
@@ -64,6 +73,15 @@ public class HomePages extends VP2{
     public static void navToUnionPage(){
         clickById(ID_UNION);
         Spoon.screenshot("navToUnionPage");
+    }
+
+    /**
+     *获取“工会服务”四个字
+     *@author jianbin.zhong
+     *@time 2018/6/21 17:17
+     */
+    public static String getUnionTex() throws UiObjectNotFoundException {
+        return getTex(ID_UNION);
     }
 
     /**

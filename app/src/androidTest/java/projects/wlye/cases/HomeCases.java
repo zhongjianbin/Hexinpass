@@ -112,7 +112,7 @@ public class HomeCases extends VP2{
     public void testNavToBj() throws UiObjectNotFoundException {
         HomePages.navToBj();
         //需要先做判断，是否是首次进入现金红包，首次进入现金红包就需要找到我知道了object，否则直接判断现金红包
-        if (!HomePages.getObjectById(HomePages.ID_BJKNOW).exists()){
+        if (!HomePages.getObjectById(HomePages.ID_BJ).exists()){
             if (!HomePages.getMsgTitle().equals("现金红包")){
                 Spoon.screenshot("testNavToBj_Fail");
                 Asst.fail("testNavToBj_fail");
