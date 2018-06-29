@@ -37,9 +37,9 @@ public class HomePages extends VP2{
     public static String ID_LIFE = "com.staff.wuliangye:id/ll_life";//全部商户
     public static String ID_FILM = "com.staff.wuliangye:id/ll_film";//电影选座
     public static String ID_CHARGE = "com.staff.wuliangye:id/ll_charge";//便民缴费
-    public static String ID_FLFW = "com.staff.wuliangye:id/ll_flfw";//法律服务
-    public static String ID_XLJY = "com.staff.wuliangye:id/ll_xljy";//心理减压
-    public static String ID_HZBZ = "com.staff.wuliangye:id/ll_hzbz";//互助保障
+    public static String ID_LEGAL = "com.staff.wuliangye:id/ll_flfw";//法律服务
+    public static String ID_STRESS = "com.staff.wuliangye:id/ll_xljy";//心理减压
+    public static String ID_GUARANTEE = "com.staff.wuliangye:id/ll_hzbz";//互助保障
 
     //会员专享
     public static String ID_CUSTOM = "com.staff.wuliangye:id/ll_line_label_m";
@@ -260,8 +260,8 @@ public class HomePages extends VP2{
      *@author jianbin.zhong
      *@time 2018/6/21 15:38
      */
-    public static void navToFlfw(){
-        clickById(ID_FLFW);
+    public static void navToLegal(){
+        clickById(ID_LEGAL);
         Spoon.screenshot("navToFlfw");
     }
 
@@ -270,8 +270,8 @@ public class HomePages extends VP2{
      *@author jianbin.zhong
      *@time 2018/6/21 15:40
      */
-    public static String getFlfwTex() throws UiObjectNotFoundException {
-        return getObjectById(ID_FLFW).getChild(new UiSelector().index(1)).getText();
+    public static String getLegalTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_LEGAL).getChild(new UiSelector().index(1)).getText();
     }
 
     /**
@@ -279,9 +279,9 @@ public class HomePages extends VP2{
      *@author jianbin.zhong
      *@time 2018/6/21 15:42
      */
-    public static void navToXljy(){
-        clickById(ID_XLJY);
-        Spoon.screenshot("navToXljy");
+    public static void navToStress(){
+        clickById(ID_STRESS);
+        Spoon.screenshot("navToStress");
     }
 
     /**
@@ -289,8 +289,8 @@ public class HomePages extends VP2{
      *@author jianbin.zhong
      *@time 2018/6/21 15:43
      */
-    public static String getXljyTex() throws UiObjectNotFoundException {
-        return getObjectById(ID_XLJY).getChild(new UiSelector().index(1)).getText();
+    public static String getStressTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_STRESS).getChild(new UiSelector().index(1)).getText();
     }
 
     /**
@@ -298,9 +298,9 @@ public class HomePages extends VP2{
      *@author jianbin.zhong
      *@time 2018/6/21 15:44
      */
-    public static void navToHzbz(){
-        clickById(ID_HZBZ);
-        Spoon.screenshot("navToHzbz");
+    public static void navToGuarantee(){
+        clickById(ID_GUARANTEE);
+        Spoon.screenshot("navToGuarantee");
     }
 
     /**
@@ -308,8 +308,8 @@ public class HomePages extends VP2{
      *@author jianbin.zhong
      *@time 2018/6/21 15:45
      */
-    public static String getHzbzTex() throws UiObjectNotFoundException {
-        return getObjectById(ID_HZBZ).getChild(new UiSelector().index(1)).getText();
+    public static String getGuaranteeTex() throws UiObjectNotFoundException {
+        return getObjectById(ID_GUARANTEE).getChild(new UiSelector().index(1)).getText();
     }
 
 

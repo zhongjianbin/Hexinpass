@@ -6,7 +6,7 @@ package projects.wlye.pages.subpages.submainpages;
  * Description:普惠扫码界面
  */
 
-public class PuHuiSaoMaPage {
+public class ScanPage {
 
     public static String ID_TITLE = "com.staff.wuliangye:id/title";
     public static String ID_LEFT = "com.staff.wuliangye:id/rl_left";

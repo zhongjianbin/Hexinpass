@@ -16,6 +16,11 @@ import projects.wlye.pages.App;
 import projects.wlye.pages.HomePages;
 import projects.wlye.pages.MyPages;
 import projects.wlye.pages.UnionPages;
+import projects.wlye.pages.subpages.submainpages.CashPage;
+import projects.wlye.pages.subpages.submainpages.GuaranteePage;
+import projects.wlye.pages.subpages.submainpages.LegalPage;
+import projects.wlye.pages.subpages.submainpages.StressPage;
+import projects.wlye.pages.subpages.subunionpages.UnionPage;
 
 /**
  * Author:jianbin.zhong
@@ -41,9 +46,11 @@ public class HomeCases extends VP2{
      */
     public void testNavToUnionPage() throws UiObjectNotFoundException {
         HomePages.navToUnionPage();
-        if (!UnionPages.getInformationTex().equals("资讯") || !UnionPages.getServerTex().equals("服务")){
+        UnionPage.confirmHttps();
+        String actual = UnionPages.getServerTex();
+        if (!actual.equals("服务")){
             Spoon.screenshot("testNavToUnionPage_Fail");
-            Asst.fail("testNavToUnionPage_fail");
+            Asst.fail("testNavToUnionPage_fail:");
         }
     }
 
@@ -111,6 +118,7 @@ public class HomeCases extends VP2{
      */
     public void testNavToBj() throws UiObjectNotFoundException {
         HomePages.navToBj();
+        CashPage.confirmKnow();
         //需要先做判断，是否是首次进入现金红包，首次进入现金红包就需要找到我知道了object，否则直接判断现金红包
         if (!HomePages.getObjectById(HomePages.ID_BJ).exists()){
             if (!HomePages.getMsgTitle().equals("现金红包")){
@@ -224,6 +232,102 @@ public class HomeCases extends VP2{
 
     @Test
     /**
+     *测试跳转到法律服务界面
+     *@author jianbin.zhong
+     *@time 2018/6/29 9:45
+     */
+    public void testNavToLegal() throws UiObjectNotFoundException {
+        HomePages.navToLegal();
+        String expect = "法律服务";
+        String actual=LegalPage.getTitle();
+        if (!expect.equals(actual)){
+            Spoon.screenshot("testNavToLegal_Fail");
+            Asst.fail("testNavToLegal_Fail, "+actual+" does not equal "+expect);
+        }
+
+    }
+
+    @Test
+    /**
+     *测试法律服务四个字
+     *@author jianbin.zhong
+     *@time 2018/6/29 10:05
+     */
+    public void testLegalTex() throws UiObjectNotFoundException {
+        String expect = "法律服务";
+        String actual = HomePages.getLegalTex();
+        if (!expect.equals(actual)){
+            Spoon.screenshot("testLegalTex_Fail");
+            Asst.fail("testLegalTex_Fail, "+actual+" does not equal "+expect);
+        }
+    }
+
+    @Test
+    /**
+     *测试跳转到心理减压
+     *@author jianbin.zhong
+     *@time 2018/6/29 10:08
+     */
+    public void testNavToStress() throws UiObjectNotFoundException {
+        HomePages.navToStress();
+        String expect = "心理减压";
+        String actual = StressPage.getTitle();
+        if (!expect.equals(actual)){
+            Spoon.screenshot("testNavToStress_Fail");
+            Asst.fail("testNavToStress_Fail, "+actual+" does not equal "+expect);
+        }
+
+    }
+
+    @Test
+    /**
+     *测试“心理减压”四个字
+     *@author jianbin.zhong
+     *@time 2018/6/29 10:13
+     */
+    public void testStressTex() throws UiObjectNotFoundException {
+        String actual = HomePages.getStressTex();
+        String expect = "心理减压";
+        if (!expect.equals(actual)){
+            Spoon.screenshot("testStressTex_Fail");
+            Asst.fail("testStressTex_Fail, "+actual+" does not equal "+expect);
+        }
+    }
+
+    @Test
+    /**
+     *测试跳转到互助保障
+     *@author jianbin.zhong
+     *@time 2018/6/29 10:21
+     */
+    public void testNavToGuarantee() throws UiObjectNotFoundException {
+        HomePages.navToGuarantee();
+        String actual = GuaranteePage.getTitle();
+        String expect = "互助保障";
+        if (!expect.equals(actual)){
+            Spoon.screenshot("testNavToGuarantee_Fail");
+            Asst.fail("testNavToGuarantee_Fail, "+actual+" does not equal "+expect);
+        }
+    }
+
+    @Test
+    /**
+     *测试“互助保障”四个字
+     *@author jianbin.zhong
+     *@time 2018/6/29 10:22
+     */
+    public void testGuaranteeTex() throws UiObjectNotFoundException {
+        String actual = HomePages.getGuaranteeTex();
+        String expect = "互助保障";
+        if (!expect.equals(actual)){
+            Spoon.screenshot("testGuaranteeTex_Fail");
+            Asst.fail("testGuaranteeTex_Fail, "+actual+" does not equal "+expect);
+        }
+    }
+
+
+    @Test
+    /**
      *测试跳转到普惠商城界面
      *@author jianbin.zhong
      *@time 2018/5/26 14:34
@@ -238,13 +342,16 @@ public class HomeCases extends VP2{
         }
     }
 
+    @Test
     /**
      *测试跳转到限时秒杀（和信通商城）
      *@author jianbin.zhong
      *@time 2018/5/26 14:36
      */
     public void testNavToMs() throws UiObjectNotFoundException {
-        String expect = "和信通商城";
+        HomePages.navToMs();
+        String expect = "限时秒杀";
+        waitTime(2);
         String actual = HomePages.getMsgTitle();
         if (!expect.equals(actual)){
             Spoon.screenshot("testNavToMs_Fail");
@@ -252,6 +359,6 @@ public class HomeCases extends VP2{
         }
     }
 
-    //测试跳转到普惠金融
+    //测试跳转到普惠金融(未开通)
 
 }

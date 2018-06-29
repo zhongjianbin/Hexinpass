@@ -3,6 +3,8 @@ package projects.wlye.pages.subpages.submainpages;
 import android.support.test.uiautomator.UiObjectNotFoundException;
 import android.support.test.uiautomator.UiSelector;
 
+import java.util.logging.Logger;
+
 import helper.base.VP2;
 
 /**
@@ -11,7 +13,9 @@ import helper.base.VP2;
  * Description:现金红包界面
  */
 
-public class BJPage extends VP2{
+public class CashPage extends VP2{
+
+    private static Logger logger = Logger.getLogger(CashPage.class.getName());
 
     public static String ID_TITLE = "com.staff.wuliangye:id/title";//title “现金红包”
     public static String ID_LEFT = "com.staff.wuliangye:id/rl_left";//返回
@@ -57,6 +61,16 @@ public class BJPage extends VP2{
      */
     public static void clickKnow(){
         clickById(ID_KNOW);
+    }
+
+    public static void confirmKnow(){
+        waitTime(2);
+        if (getObjectById(ID_KNOW).exists()){
+            clickById(ID_KNOW);
+            logger.info("confirm know BJ successful");
+        }else {
+            logger.info("no need to confirm know");
+        }
     }
 
     /**

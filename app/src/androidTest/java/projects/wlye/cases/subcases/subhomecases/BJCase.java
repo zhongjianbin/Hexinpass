@@ -1,4 +1,4 @@
-package projects.wlye.cases.subcases.submaincases;
+package projects.wlye.cases.subcases.subhomecases;
 
 import android.support.test.uiautomator.UiObjectNotFoundException;
 
@@ -12,7 +12,7 @@ import helper.squareup.spoon.Spoon;
 import helper.tools.Asst;
 import projects.wlye.pages.App;
 import projects.wlye.pages.HomePages;
-import projects.wlye.pages.subpages.submainpages.BJPage;
+import projects.wlye.pages.subpages.submainpages.CashPage;
 
 /**
  * Author:jianbin.zhong
@@ -38,7 +38,7 @@ public class BJCase extends VP2 {
      *@time 2018/6/21 17:11
      */
     public void testTitle() throws UiObjectNotFoundException {
-        String actual = BJPage.getTitleTex();
+        String actual = CashPage.getTitleTex();
         String expect = "现金红包";
         if (!actual.equals(expect)){
             Spoon.screenshot("testTitle_Fail");
@@ -53,7 +53,7 @@ public class BJCase extends VP2 {
      *@time 2018/6/21 17:22
      */
     public void testLeft() throws UiObjectNotFoundException {
-        BJPage.clickLeft();
+        CashPage.clickLeft();
         String expect1 = "工会服务";
         String expect2 = "首页";
         String actual2 = HomePages.getHomeTex();
