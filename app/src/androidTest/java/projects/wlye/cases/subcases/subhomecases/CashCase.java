@@ -17,12 +17,12 @@ import projects.wlye.pages.subpages.submainpages.CashPage;
 /**
  * Author:jianbin.zhong
  * Date: 2018/6/21 16:56
- * Description:
+ * Description:现金红包测试用例
  */
 
-public class BJCase extends VP2 {
+public class CashCase extends VP2 {
 
-    private static Logger logger = Logger.getLogger(BJCase.class.getName());
+    private static Logger logger = Logger.getLogger(CashCase.class.getName());
 
     @Before
     public void setUp(){
